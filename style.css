@@ -127,7 +127,6 @@ a{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 10px;
     margin-bottom: 5px;
 }
 .section-container img{
@@ -136,7 +135,7 @@ a{
     object-fit: cover;
 }
 .section-container-grid div{
-    padding: 10px;
+    padding: 8px;
 }
 .section-container h1{
     font-size: 180%;
@@ -220,6 +219,8 @@ a{
     /*SECTION CONTAINER */
     .section-container{
         grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
     }
     .section-container img{
         height: 350px;
