@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* VERSIONES NO APTOS PARA LA PAGINA HORIENTACION VERTICAL
+iPhone 5/SE
+Galaxy Fold -- NO APTO PARA LA PAGINA
+otros no encontrados o buscados aun*/
+
 /* GENERAL*/
 .btn{
     font-size: 130%;
@@ -71,7 +76,7 @@ a{
     text-align: center;
     text-transform: uppercase;
     margin-top: 4px;
-    font-size: 250%;
+    font-size: 185%;
     width: 100%;
 }
 
@@ -144,26 +149,24 @@ a{
 
 /* FOOTER CONTAINER*/
 
-.section-links{
+.footer-links{
     background: #111212;
     width: 100%;
-    height: 300px;
+    height: fit-content;
 }
-.section-links p{
+.footer-links p{
     text-align: center;
     font-size: 180%;
     padding-top: 30px;
-    margin-bottom: 60px;
 }
 .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    
 }
 .links i{
    font-size: 250%;
+   margin: 50px 40px;
 }
 .facebook:hover{
     color: #3354aa
@@ -174,6 +177,9 @@ a{
 .instagram:hover{
     color: #d62976;
 }
+.footer-credits{
+    padding-bottom: 20px;
+}
 
 /* RESPONSIVE COMPUTER*/
 
@@ -183,7 +189,9 @@ a{
         font-size: 180%;
     }
     /*NAV CONTAINER*/
-
+    .nav-container li {
+        cursor: move;
+    }
     .home, .logo{
         font-size: 250%;
     }
