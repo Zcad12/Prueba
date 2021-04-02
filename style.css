@@ -135,14 +135,14 @@ a{
     object-fit: cover;
 }
 .section-container-grid div{
-    padding: 8px;
+    padding: 10px;
 }
 .section-container h1{
-    font-size: 180%;
+    font-size: 160%;
     text-decoration: underline;
 }
 .section-container p{
-    font-size: 110%;
+    font-size: 105%;
 }
 
 /* FOOTER CONTAINER*/
@@ -156,6 +156,7 @@ a{
     text-align: center;
     font-size: 180%;
     padding-top: 30px;
+    width: 100%;
 }
 .links {
     display: flex;
