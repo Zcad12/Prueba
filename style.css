@@ -166,7 +166,7 @@ a{
 }
 .links i{
    font-size: 250%;
-   margin: 50px 40px;
+   margin: 40px 20px;
 }
 .facebook:hover{
     color: #3354aa
@@ -225,7 +225,10 @@ a{
     .section-container img{
         height: 350px;
     }
-
+    /*FOOTER CONTAINER*/
+    .footer-links i{
+        margin: 60px 80px;
+    }
 }
 @media (min-width:1366px){
     .section-container{
