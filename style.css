@@ -51,7 +51,7 @@ a{
 /* NAV-MENU PRINCIPAL*/
 
 .nav-container li{
-    padding: 10px 20px;
+    padding: 10px 18px;
     border: 3px solid #efefef; 
 }
 .logo, .home{
@@ -76,8 +76,7 @@ a{
     text-align: center;
     text-transform: uppercase;
     margin-top: 4px;
-    font-size: 185%;
-    width: 100%;
+    font-size: 180%;
 }
 
 /* NAV MENU SECUNDARIO*/
