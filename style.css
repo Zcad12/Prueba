@@ -51,7 +51,7 @@ a{
 /* NAV-MENU PRINCIPAL*/
 
 .nav-container li{
-    padding: 10px 18px;
+    padding: 10px 16px;
     border: 3px solid #efefef; 
 }
 .logo, .home{
@@ -76,7 +76,7 @@ a{
     text-align: center;
     text-transform: uppercase;
     margin-top: 4px;
-    font-size: 180%;
+    font-size: 170%;
 }
 
 /* NAV MENU SECUNDARIO*/
@@ -138,7 +138,7 @@ a{
     padding: 10px;
 }
 .section-container h1{
-    font-size: 160%;
+    font-size: 150%;
     text-decoration: underline;
 }
 .section-container p{
@@ -152,7 +152,7 @@ a{
     width: 100%;
     height: fit-content;
 }
-.footer-links p{
+.footer-links p:first-child{
     text-align: center;
     font-size: 180%;
     padding-top: 30px;
@@ -177,7 +177,9 @@ a{
     color: #d62976;
 }
 .footer-credits{
-    padding-bottom: 20px;
+    text-align: center;
+    font-size: 105%;
+    padding-bottom: 20px; 
 }
 
 /* RESPONSIVE COMPUTER*/
