@@ -235,7 +235,7 @@ a{
 }
 @media (min-width:1366px){
     .section-container{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     .section-container img{
         height: 300px;
