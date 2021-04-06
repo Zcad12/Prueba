@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* VERSIONES NO APTOS PARA LA PAGINA HORIENTACION VERTICAL
-iPhone 5/SE
-Galaxy Fold -- NO APTO PARA LA PAGINA
-otros no encontrados o buscados aun*/
+
 
 /* GENERAL*/
 .btn{
@@ -43,6 +40,7 @@ a{
     max-width: 1500px;
     height: 100vh;
     display: flex;
+    flex-direction: column;
 }
 .nav-container-flex{
     display: flex;
@@ -51,12 +49,11 @@ a{
 }
 /* NAV-MENU PRINCIPAL*/
 
-.nav-container li{
-    padding: 10px 14px;
-    border: 3px solid #efefef; 
-}
+
 .logo, .home{
-    font-size: 120%;   
+    font-size: 150%;   
+    display: inline-block;
+    padding: 7px;
 }
 .logo{
     margin-left: 0;
@@ -64,9 +61,7 @@ a{
 .home{
     margin-right: 0;
 }
-.nav-container li:hover{
-    border: 3px solid #995592;
-}
+
 .home:hover , .logo:hover{
     text-decoration: underline;
     color: #995592;
@@ -78,26 +73,24 @@ a{
     text-transform: uppercase;
     margin-top: 4px;
     font-size: 160%;
+    
 }
 
-/* NAV MENU SECUNDARIO*/
-.nav-container-lorem{
-    display: block;
+/* NAV MENU SECUNDARIO VACIO MOMENTÁNEO*/
+.nav-container-lorem{  
+    width: 100%;
     position: absolute;
-    text-align: center;
-    width:70%;
     bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 25px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 .nav-container-lorem h2{
-    font-size:  200%;
+    font-size: 150%;
 }
 .nav-container-lorem p{
-    font-size: 130%;
+    font-size: 110%;
 }
-
 /* HEADER */
 
 .header-container{
@@ -203,12 +196,12 @@ a{
     .nav-container h1{
         font-size: 400%;
     }
-    .nav-container-lorem h2{
+    /* .nav-container-lorem h2{
         font-size: 280%;
     }
     .nav-container-lorem p{
         font-size: 170%;
-    }
+    } */
     /*HEAER CONTAINER*/
     .header-container div{
         width: 55%;
