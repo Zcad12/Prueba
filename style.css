@@ -4,7 +4,33 @@
     box-sizing: border-box;
 }
 
+/* MENU DE BARRA */
+.container-menu{
+    background: #1f1f1f;
+    opacity: .85;
+    width: 72%;
+    height: 100vh;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: .5s;
+    padding: 25px 30px;
 
+}/*MENU DESPLEGABLE */
+.menu-abierto{
+    transform: translateX(0);
+}
+/*MENU DESPLEGABLE ARRIBA*/
+.container-menu li{
+    margin-bottom: 20px;
+}
+.container-menu a{
+    text-transform: uppercase;
+    font-size: 115%;
+}
+.container-menu i{
+    margin-left: 10px;
+    font-size: 90%;
+}
 /* GENERAL*/
 .btn{
     font-size: 130%;
@@ -82,7 +108,7 @@ a{
     position: absolute;
     bottom: 0;
     text-align: center;
-    padding: 5px;
+    padding: 8px;
     margin-bottom: 15px;
 }
 .nav-container-lorem h2{
@@ -186,14 +212,22 @@ a{
     .btn{
         font-size: 180%;
     }
+    /* menu CEL*/
+    .container-menu{
+        display: none;
+    }
     /*NAV CONTAINER*/
     .nav-container li {
         cursor: pointer;
+        
     }
+    /* */
     .home, .logo{
         font-size: 250%;
+        display: none;
     }
     .nav-container h1{
+        width: 100%;
         font-size: 400%;
     }
     /* .nav-container-lorem h2{
